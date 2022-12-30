@@ -9,7 +9,7 @@ composer install
 cp .env.example .env
 
 php artisan key:generate
-### Đặt đúng thông tin kết nối cơ sở dữ liệu trước khi chạy các lệnh dưới đây
+
 php artisan migrate
 
 php artisan db:seed
